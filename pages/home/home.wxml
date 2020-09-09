@@ -1,3 +1,5 @@
 <!--pages/home/home.wxml-->
 <text class="title">Hello world</text>
 <button size="mini">submit</button>
+
+<view>ceshi</view>
