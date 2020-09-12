@@ -1,0 +1,10 @@
+<!--水平滚动 scroll-x-->
+<scroll-view class="container1" scroll-x>
+<view class="item1" wx:for="{{10}}">{{item}}</view>
+</scroll-view>
+<scroll-view class="container2" scroll-y>
+<view class="item2" wx:for="{{10}}">{{item}}</view>
+</scroll-view>
+<scroll-view bindscroll="handleScroll" class="container2" scroll-y>
+<view class="item2" wx:for="{{10}}">{{item}}</view>
+</scroll-view>

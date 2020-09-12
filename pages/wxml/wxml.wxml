@@ -1,0 +1,12 @@
+<view>{{message}}</view>
+<view>{{name+" "+age}}</view>
+<view>{{age>=18 ? "A" :"Y"}}</view>
+<view>{{nowTime}}</view>
+<view>---------------------</view>
+<view class="box {{isActive?'active' : ''}}">111111</view>
+ <button size="mini" bindtap="handleSwitchColor">Change Color</button>
+ <view>---------------------</view>
+ <view wx:if="{{isShow}}">hhhh</view>
+ <button size="mini" bindtap="handleChangeShow">Switch</button>
+ <view>---------------------</view>
+ 

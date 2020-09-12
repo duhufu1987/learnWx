@@ -1,0 +1,10 @@
+<!--img基本使用-->
+ <image src="{{imagepath}}"  />
+ 
+<button bindtap="handleChoose">选择图片</button>
+<text>-*---------------------------</text>
+<image wx:for="{{1}}" lazy-load="{{true}}"  bindload="handleImageload" src="/assess/image/a3.jpg" />
+<image  
+  mode="top"
+  show-menu-by-longpress="{{true}}"
+  src="/assess/image/a4.jpg" />

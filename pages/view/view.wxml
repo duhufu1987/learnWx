@@ -1,0 +1,8 @@
+<!--pages/view/view.wxml-->
+ 
+<view>
+  cdssdd
+</view>
+<view hover-class="orange">
+  cdssdd
+</view>
